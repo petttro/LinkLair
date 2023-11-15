@@ -1,0 +1,104 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Environment", "Environment", "{AE9D4875-256B-4C94-B93D-37D9046E804A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Dockerfile = Dockerfile
+		stylecop.ruleset = stylecop.ruleset
+		Ut.Dockerfile = Ut.Dockerfile
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C3587BFC-27D4-4768-B461-96D1D2B4A4D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkLair.Api", "src\LinkLair.Api\LinkLair.Api.csproj", "{DB708C4C-920F-46CD-B486-095C70226449}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{178F091B-B3E4-42FA-AB72-30072DA8F66D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkLair.Api.Test", "test\LinkLair.Api.Test\LinkLair.Api.Test.csproj", "{078C3D59-84B5-4AE3-BD62-10FBEACA2EE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkLair.Services", "src\LinkLair.Services\LinkLair.Services.csproj", "{49579433-947E-429C-9F2E-179842547C28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkLair.Common", "src\LinkLair.Common\LinkLair.Common.csproj", "{03F09609-0607-44BA-A21D-82C581D02051}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkLair.Services.Test", "test\LinkLair.Services.Test\LinkLair.Services.Test.csproj", "{E06C7F27-8AB4-40C3-B692-7AF7DC2D1015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkLair.Data", "src\LinkLair.Data\LinkLair.Data.csproj", "{15C1F89A-CCA9-4A71-8533-1E44ED612DD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkLair.Data.Test", "test\LinkLair.Data.Test\LinkLair.Data.Test.csproj", "{D8E3FD5D-CFFE-406C-B30B-BF197522D032}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkLair.Common.Test", "test\LinkLair.Common.Test\LinkLair.Common.Test.csproj", "{6BEE1649-7DAB-4497-9427-F32018F0AFDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkLair.Security", "src\LinkLair.Security\LinkLair.Security.csproj", "{42118827-EB7E-4544-A8E1-E59306B2E0B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkLair.Security.Test", "test\LinkLair.Security.Test\LinkLair.Security.Test.csproj", "{441AB9C9-B6EB-493C-B672-1E870DB09085}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB708C4C-920F-46CD-B486-095C70226449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB708C4C-920F-46CD-B486-095C70226449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB708C4C-920F-46CD-B486-095C70226449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB708C4C-920F-46CD-B486-095C70226449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{078C3D59-84B5-4AE3-BD62-10FBEACA2EE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{078C3D59-84B5-4AE3-BD62-10FBEACA2EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{078C3D59-84B5-4AE3-BD62-10FBEACA2EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{078C3D59-84B5-4AE3-BD62-10FBEACA2EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49579433-947E-429C-9F2E-179842547C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49579433-947E-429C-9F2E-179842547C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49579433-947E-429C-9F2E-179842547C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49579433-947E-429C-9F2E-179842547C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F09609-0607-44BA-A21D-82C581D02051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F09609-0607-44BA-A21D-82C581D02051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F09609-0607-44BA-A21D-82C581D02051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F09609-0607-44BA-A21D-82C581D02051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E06C7F27-8AB4-40C3-B692-7AF7DC2D1015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E06C7F27-8AB4-40C3-B692-7AF7DC2D1015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E06C7F27-8AB4-40C3-B692-7AF7DC2D1015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E06C7F27-8AB4-40C3-B692-7AF7DC2D1015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C1F89A-CCA9-4A71-8533-1E44ED612DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C1F89A-CCA9-4A71-8533-1E44ED612DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C1F89A-CCA9-4A71-8533-1E44ED612DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C1F89A-CCA9-4A71-8533-1E44ED612DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8E3FD5D-CFFE-406C-B30B-BF197522D032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E3FD5D-CFFE-406C-B30B-BF197522D032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E3FD5D-CFFE-406C-B30B-BF197522D032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E3FD5D-CFFE-406C-B30B-BF197522D032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BEE1649-7DAB-4497-9427-F32018F0AFDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BEE1649-7DAB-4497-9427-F32018F0AFDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BEE1649-7DAB-4497-9427-F32018F0AFDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BEE1649-7DAB-4497-9427-F32018F0AFDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42118827-EB7E-4544-A8E1-E59306B2E0B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42118827-EB7E-4544-A8E1-E59306B2E0B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42118827-EB7E-4544-A8E1-E59306B2E0B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42118827-EB7E-4544-A8E1-E59306B2E0B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{441AB9C9-B6EB-493C-B672-1E870DB09085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441AB9C9-B6EB-493C-B672-1E870DB09085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441AB9C9-B6EB-493C-B672-1E870DB09085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441AB9C9-B6EB-493C-B672-1E870DB09085}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB708C4C-920F-46CD-B486-095C70226449} = {C3587BFC-27D4-4768-B461-96D1D2B4A4D6}
+		{078C3D59-84B5-4AE3-BD62-10FBEACA2EE2} = {178F091B-B3E4-42FA-AB72-30072DA8F66D}
+		{49579433-947E-429C-9F2E-179842547C28} = {C3587BFC-27D4-4768-B461-96D1D2B4A4D6}
+		{03F09609-0607-44BA-A21D-82C581D02051} = {C3587BFC-27D4-4768-B461-96D1D2B4A4D6}
+		{E06C7F27-8AB4-40C3-B692-7AF7DC2D1015} = {178F091B-B3E4-42FA-AB72-30072DA8F66D}
+		{15C1F89A-CCA9-4A71-8533-1E44ED612DD9} = {C3587BFC-27D4-4768-B461-96D1D2B4A4D6}
+		{D8E3FD5D-CFFE-406C-B30B-BF197522D032} = {178F091B-B3E4-42FA-AB72-30072DA8F66D}
+		{6BEE1649-7DAB-4497-9427-F32018F0AFDC} = {178F091B-B3E4-42FA-AB72-30072DA8F66D}
+		{42118827-EB7E-4544-A8E1-E59306B2E0B2} = {C3587BFC-27D4-4768-B461-96D1D2B4A4D6}
+		{441AB9C9-B6EB-493C-B672-1E870DB09085} = {178F091B-B3E4-42FA-AB72-30072DA8F66D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AF36C4F-8ADA-4539-AE1E-382419F12852}
+	EndGlobalSection
+EndGlobal
